@@ -6,7 +6,7 @@ const int echoPin = 10;
 
 // defines variables
 long duration;
-int distance;
+float distance;
 
 void setup() {
 pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
@@ -33,5 +33,5 @@ distance= duration*0.034/2;
 // Prints the distance on the Serial Monitor
 Serial.print("Distance: ");
 Serial.println(distance);
-delay(1000);
+delay(10);
 }
