@@ -33,7 +33,7 @@ distance= duration*0.034/2;
 delay(100);
 if(distance <90) {
   digitalWrite(relayPin, HIGH);
-  delay(3000);
+  delay(1000);
 }
 else {
   digitalWrite(relayPin, LOW);
